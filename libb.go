@@ -1,4 +1,4 @@
-package main
+package libb
 
 import (
 	"fmt"
@@ -6,10 +6,6 @@ import (
 )
 
 // ait-b imports pkg/mod from  ait-c
-func main() {
-	fmt.Println("Hello World")
-	pkgmodc.Hello()
-}
 
 func SomeLibraryFunc() {
 	fmt.Println("I'm a func from the main root module ait-a")
