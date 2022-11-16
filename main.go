@@ -2,14 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/ChrisScotMartin/ait-b/pkgmodb"
+	"github.com/ChrisScotMartin/ait-a/pkgmoda"
+	"github.com/ChrisScotMartin/ait-c/pkgmodc"
 )
 
+// ait-b imports pkg/mod from  ait-c
 func main() {
 	fmt.Println("Hello World")
-	pkgmodb.Hello()
+	pkgmodc.Hello()
 }
 
 func SomeServerFunc() {
-	fmt.Println("I'm a func from the main root module ait-b")
+	fmt.Println("I'm a func from the main root module ait-a")
 }
